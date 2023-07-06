@@ -20,7 +20,7 @@ const ProductDetail = () => {
             <img src={image} alt="product image"/>
             </div>
       </div>
-      <div className='h-[300px] w-[500px] pt-5 bg-slate-100 md:me-10 md:h-[350px] md:w-[600px] flex flex-col gap-4'>
+      <div className='h-[300px] w-[415px] pt-5 bg-slate-100 md:me-10 md:h-[350px] md:w-[600px] flex flex-col gap-4'>
        <div className='text-3xl font-serif px-4'>
         {title}
        </div>
