@@ -19,9 +19,9 @@ const Navbar = () => {
                 <li className='text-xl font-serif cursor-pointer hover:underline'><a href='/products'>Product</a></li>
             </ul>
             {/* Responsive */}
-            <ul className={`flex flex-col absolute top-[75px] bg-black w-full h-[120px] ps-2 gap-5 pt-3 duration-300 text-white ${toggle ? 'left-[0]':'left-[-100%]'}`}>
-                <li className='text-2xl cursor-pointer hover:underline'><a href='/'>Home</a></li>
-                <li className='text-2xl cursor-pointer hover:underline'><a href='/products'>Product</a></li>
+            <ul className={`flex flex-col absolute top-[75px]  bg-black w-full h-[120px] ps-2 gap-5 pt-3 duration-300 text-white ${toggle ? 'left-[0]':'left-[-100%]'}`}>
+                <li className=' text-white text-2xl cursor-pointer hover:underline absolute right-4'><a href='/'>Home</a></li>
+                <li className=' text-white text-2xl cursor-pointer hover:underline absolute right-4 top-16'><a href='/products'>Product</a></li>
             </ul>
         </div>
         
